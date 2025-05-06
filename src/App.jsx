@@ -58,6 +58,7 @@ function App() {
     setPickedWord(word);
     setPicketCategory(category);
     setLetters(Wordletters);
+    setGuesses(guessQny);
 
     setStage(stages[1].name);
   }, [pickWordAndCategory]);
